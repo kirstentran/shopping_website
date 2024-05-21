@@ -12,8 +12,8 @@ code {
     monospace;
 }
 
-
 /* custom css*/
+
 .nav-item.dropdown>a::after {
   content: none;
 }

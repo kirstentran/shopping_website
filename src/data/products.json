@@ -4,25 +4,37 @@
             "id": 1,
             "name": "Iphone 15 Promax 2023",
             "price": 20.99,
-            "thumbnail": "/images/product1.jpg"
+            "thumbnail": "/images/iphone_15_promax.webp"
         },
         {
             "id": 2,
             "name": "Macbook Air 3",
             "price": 199.99,
-            "thumbnail": "/images/product2.jpg"
+            "thumbnail": "/images/macbook_air.jpg"
         },
         {
             "id": 3,
             "name": "Lenovo ThinkPad 2023",
             "price": 10.00,
-            "thumbnail": "/images/product3.jpg"
+            "thumbnail": "/images/Lenovo_ThinkPad.jpeg"
         },
         {
             "id": 4,
-            "name": "Watch i8 Ultra Max",
+            "name": "GigaByte Laptop",
             "price": 30.55,
-            "thumbnail": "/images/product4.jpg"
+            "thumbnail": "/images/Gigabyte_Laptop.webp"
+        },
+        {
+            "id": 5,
+            "name": "Acer Laptop",
+            "price": 30.55,
+            "thumbnail": "/images/acer_laptop.jpg"
+        },
+        {
+            "id": 6,
+            "name": "HP PC",
+            "price": 30.55,
+            "thumbnail": "/images/HP_PC.webp"
         }
     ]
 }
