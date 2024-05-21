@@ -1,6 +1,23 @@
-import React from 'react'
+
+import React, {useEffect, useState} from 'react'
+import axios from 'axios'
 
 const Products = () => {
+const [products, setProducts] = useState([])
+useEffect(() => {
+    console.log('Get products data from APi')
+    const fetchProducts = async() => {
+        try{
+            const res = await axios.get('http://localhost:3003/products')
+            console.log('products =>', res)
+            setProducts(res.data)
+        } catch (error){
+            console.log("error =>", error)
+        }
+    }
+    fetchProducts()
+}, [])
+
     return (
         <div className="row">
             <h3>Products</h3>
